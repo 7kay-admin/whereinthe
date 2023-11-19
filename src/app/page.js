@@ -1,3 +1,4 @@
+import FindAnything from '@/components/homepage/find-anything';
 import { getAllContinents, getContinentByCode } from '@/utils/continents';
 import { getCountriesByContinent } from '@/utils/countries';
 import Link from 'next/link';
@@ -5,7 +6,8 @@ import Link from 'next/link';
 export default function HomePage() {
   return (
     <main className="mx-auto min-h-screen max-w-3xl py-9">
-      <h1 className="text-2xl font-extrabold pb-9">whereinthe</h1>
+
+      <FindAnything />
 
 
       <ul className='space-y-9'>
