@@ -9,7 +9,7 @@ import Footer from '@/components/footer';
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className='bg-slate-800 text-white'>
         {/* className={lexend.className} */}
         <Header />
         {children}
